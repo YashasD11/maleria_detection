@@ -1,0 +1,68 @@
+Dataset Name: Malaria Cell Images Dataset
+
+Description:
+This dataset contains microscopic images of blood smear cells used for detecting malaria infection. 
+The images are categorized into two classes representing infected and uninfected red blood cells. 
+The dataset is commonly used for computer vision and machine learning tasks related to automated 
+malaria detection.
+
+The images were captured from thin blood smear slides using microscopy and are labeled based on 
+the presence or absence of malaria parasites.
+
+Total Number of Images: 27,560
+
+Dataset Distribution:
+- Parasitized (Infected): 13,780 images
+- Uninfected: 13,780 images
+
+This balanced dataset allows machine learning models to learn features that distinguish between 
+infected and healthy cells.
+
+Class Descriptions:
+
+1. Parasitized
+   - Description: Images of red blood cells that are infected with malaria parasites.
+   - These cells contain visible parasite structures within the cell.
+   - Total Images: 13,780
+
+2. Uninfected
+   - Description: Images of normal red blood cells without malaria infection.
+   - These cells do not contain parasite structures.
+   - Total Images: 13,780
+
+Image Characteristics:
+- Image Type: Microscopic blood smear images
+- Color Format: RGB images
+- Cell Type: Red Blood Cells (RBC)
+- Data Type: Image dataset used for binary classification
+
+Typical Folder Structure:
+
+dataset/
+│
+├── Parasitized/
+│   ├── image1.png
+│   ├── image2.png
+│   └── ...
+│
+└── Uninfected/
+    ├── image1.png
+    ├── image2.png
+    └── ...
+
+Machine Learning Task:
+Binary Image Classification
+
+Target Classes:
+0 → Uninfected
+1 → Parasitized
+
+Possible Applications:
+- Automated malaria detection systems
+- Medical diagnostic support tools
+- Healthcare image analysis
+- Computer vision research in disease detection
+
+Dataset Usage:
+This dataset is used to train deep learning or machine learning models to automatically classify 
+blood cell images and assist in malaria diagnosis.
